@@ -8,9 +8,9 @@ def bestSum(target, nums, memo):
         res = bestSum(rem, nums, memo)
         if res != None:
             temp = res + [num]
-            memo[target] = temp[:]
             if best == None or len(temp) < len(best):
                 best = temp[:]
+    memo[target] = best
     return best
 
 print(bestSum(7, [5,3,4,7], {}))
