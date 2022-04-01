@@ -17,6 +17,10 @@ def allConstruct(target, words):
 
 print(allConstruct('abcdef', ['ab','abc','abcd','def','cd'])) 
 print(allConstruct('purple', ['purpl','purp','ur','le','p']))
+print(allConstruct('', ['purpl','purp','ur','le','p']))
+print(allConstruct('purplei', ['purpl','purp','ur','le','p']))
 
 # [['abc', 'def']]
 # [['purp', 'le'], ['p', 'ur', 'p', 'le']]
+# [[]]
+# []
