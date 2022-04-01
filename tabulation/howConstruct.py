@@ -9,4 +9,5 @@ def howConstruct(target, words):
     print(ans)
     return ans[len(target)]
 
-print(howConstruct('abcdef', ['ab','abc','abcd','def','cd']))   # ['abc','def']
+print(howConstruct('abcdef', ['ab','abc','abcd','def','cd']))   # ['abc', 'def']
+print(howConstruct('purple', ['purpl','purp','ur','le','p']))   # ['p', 'ur', 'p', 'le']
